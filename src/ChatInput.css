@@ -1,0 +1,21 @@
+.chatInput {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+}
+
+.chatInput > form {
+}
+
+.chatInput > form > input {
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 20px;
+  width: calc(100% - 345px);
+}
+
+.chatInput > form > button {
+  display: none !important;
+}
